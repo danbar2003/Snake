@@ -2,7 +2,7 @@
 #include <windows.h>
 
 const static int WIDTH = 80;
-const static int HEIGHT = 50;
+const static int HEIGHT = 40;
 const static int M_WIDTH = WIDTH / 2;
 const static int M_HEIGHT = HEIGHT / 2;
 
