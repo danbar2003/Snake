@@ -1,6 +1,7 @@
 #include<iostream>
 
 #include "Point.h"
+#include "Constants.h"
 
 
 const HDC Point::WINDOW = C_WINDOW;
@@ -23,7 +24,7 @@ bool Point::Merge(Point& other)
 
 void Point::Delete()
 {
-	Print(RGB(12, 12, 12));
+	Print(C_DELETE_COLOR);
 }
 
 void Point::SetCoordinate(int x, int y)

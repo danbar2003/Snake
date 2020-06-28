@@ -13,6 +13,7 @@ const static COLORREF C_APPLE_COLOR = RGB(255, 0, 0);
 const static COLORREF C_HEAD_COLOR = RGB(255, 128, 0);
 const static COLORREF C_SNAKE_COLOR = RGB(255, 255, 255);
 const static COLORREF C_BORDER_COLOR = RGB(0, 255, 0);
+const static COLORREF C_DELETE_COLOR = RGB(12, 12, 12);
 
 const static HDC C_WINDOW = GetDC(GetConsoleWindow());
 const static int DELAY_TIME = 50;
