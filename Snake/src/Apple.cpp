@@ -3,7 +3,7 @@
 #include"Constants.h"
 
 Apple::Apple()
-	:Point((rand() % WIDTH), (rand() % HEIGHT)) {
+	:Point(rand() % WIDTH + 1, rand() % HEIGHT) {
 	//TODO - generate check (not on snake)
 }
 
